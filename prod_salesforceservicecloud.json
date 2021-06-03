@@ -24,5 +24,8 @@
       "header": "ID",
       "subfieldPath": []
     }
-  ]
+  ],
+  "scheduleConfig": {
+    "useSourceSchedule": true
+  }
 }
