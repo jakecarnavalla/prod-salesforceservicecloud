@@ -1,0 +1,28 @@
+{
+  "$id": "salesforceServiceCloudV2",
+  "$schema": "https://schema.yext.com/config/km/connector/v1",
+  "displayName": "Salesforce Service Cloud V2",
+  "entityType": "yext/helpArticle",
+  "source": {
+    "sourceConfig": {
+      "apiPushConfig": {
+        "app": 49488,
+        "dataFormat": "JSON"
+      }
+    },
+    "selectors": [
+      {
+        "type": "JSON",
+        "header": "ID",
+        "path": "id"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "field": "yext/entityId",
+      "header": "ID",
+      "subfieldPath": []
+    }
+  ]
+}
